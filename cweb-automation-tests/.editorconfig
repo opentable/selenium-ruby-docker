@@ -1,0 +1,65 @@
+root = true
+
+[*]
+end_of_line = lf
+
+
+[*.config]
+end_of_line = crlf
+
+[*.Config]
+end_of_line = crlf
+
+[*.aspx]
+end_of_line = crlf
+
+[*.cs]
+end_of_line = crlf
+
+[*.cshtml]
+end_of_line = crlf
+
+[*.css]
+end_of_line = crlf
+
+[*.js]
+end_of_line = crlf
+
+[*.resx]
+end_of_line = crlf
+
+[*.txt]
+end_of_line = crlf
+
+[*.xml]
+end_of_line = crlf
+
+[*.targets]
+end_of_line = crlf
+
+[*.Targets]
+end_of_line = crlf
+
+[*.ruleset]
+end_of_line = crlf
+
+[*.StyleCop]
+end_of_line = crlf
+
+[*.sln]
+end_of_line = crlf
+
+[*.csproj]
+end_of_line = crlf
+
+[*.testsettings]
+end_of_line = crlf
+
+[*.uitest]
+end_of_line = crlf
+
+[*.bat]
+end_of_line = crlf
+
+[*.vsmdi]
+end_of_line = crlf

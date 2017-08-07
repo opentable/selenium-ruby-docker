@@ -1,0 +1,49 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Web Release Environment
+####################################################
+
+# Sites
+10.21.0.237		www.opentable.de secure.opentable.de
+10.21.0.236 	www.opentable.fr secure.opentable.fr
+10.21.0.238		www.opentable.es secure.opentable.es
+10.21.0.235 	www.toptable.co.uk test.toptable.co.uk
+#10.21.0.x 		www.opentable.com secure.opentable.com uk.opentable.com
+#10.21.0.x 		www.opentable.com.mx secure.opentable.com.mx
+#10.21.0.x		www.opentable.jp export.opentable.jp secure.opentable.jp
+127.0.0.1   	m.opentable.com
+10.21.0.70		m.toptable.co.uk
+
+# Databases
+10.21.0.188		webdb-na-primary weblogdb-na-primary
+10.21.0.188 	webdb-eu-primary weblogdb-eu-primary
+
+# Email Server
+10.22.0.5  	    qa.otmail.com
+
+# Charm
+#10.21.0.x		www.charm.com
+10.21.0.236		www.charm.eu
+#10.21.0.x		www.charm.jp
+
+# Reviews
+10.10.0.126     reviews.opentable.com opentable.reviews.bazaarvoice.com bazaarvoice.edgesuite.net opentable.ugc.bazaarvoice.com

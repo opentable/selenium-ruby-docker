@@ -1,0 +1,29 @@
+*.gem
+*.rbc
+._.*
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+# RubyMine files
+.idea
+.bundle
+.config
+Cucumber/.idea/Cucumber.iml
+Cucumber/.idea/workspace.xml
+Cucumber/.idea/Cucumber.iml
+Cucumber/.idea/workspace.xml
+Cucumber/.idea/misc.xml
+*.png
+*.iml

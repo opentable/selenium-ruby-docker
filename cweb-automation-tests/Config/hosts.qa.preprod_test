@@ -1,0 +1,62 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Pre Prod Environment
+####################################################
+
+# Consumer Sites
+10.21.0.72	www.opentable.com export.opentable.com secure.opentable.com metromix.opentable.com
+10.21.0.68	www.opentable.de export.opentable.de secure.opentable.de
+10.21.0.6	www.opentable.jp export.opentable.jp secure.opentable.jp
+10.21.0.11	www.opentable.com.mx secure.opentable.com.mx
+10.21.0.24  www.toptable.co.uk toptable.co.uk test.toptable.co.uk
+10.21.0.201 www.otrestaurant.com
+10.22.1.14   Auto-US-ERB10
+10.22.0.60   Auto-EU-CC-UK-1
+10.22.0.208  Auto-JP-FRN-ERB
+
+
+
+# Mobile
+10.21.0.7	m.opentable.com
+10.21.0.70	m.toptable.co.uk
+
+# CHARM
+10.21.0.124     www.charm.com
+10.21.0.6	www.charm.jp
+10.21.0.20	www.charm.eu
+
+# Databases
+10.21.0.10	webdb-na-primary weblogdb-na-primary
+10.21.0.9	webdb-eu-primary weblogdb-eu-primary
+10.21.0.38	webdb-ap-primary weblogdb-ap-primary
+
+# Email Server
+10.22.0.5	qa.otmail.com
+
+# Reviews
+10.10.0.126     reviews.opentable.com opentable.reviews.bazaarvoice.com bazaarvoice.edgesuite.net opentable.ugc.bazaarvoice.com
+
+#console site
+10.21.0.251         otconnect.com   webmodule.opentable.com                    
+10.21.0.253         otconnect.de    webmodule-eu.opentable.com              
+10.21.0.252         otconnect.jp    webmodule-ap.opentable.com              
+

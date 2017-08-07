@@ -1,0 +1,83 @@
+# Run 'bundle install' to install missing gems.
+
+source "http://rubygems.org"
+ruby '2.2.6'
+gem "activesupport", "5.0.1"
+#gem "activesupport", "5.0.2"  #tested with minitest
+gem "archive-tar-minitar", "0.5.2"
+gem "bson", "1.12.5"
+gem "bson_ext", "1.12.5"
+gem "mongo", "1.12.5"
+gem "builder", "3.0.0"
+gem "columnize", "0.9.0"
+gem "cucumber", "2.3.3"
+gem "gherkin", "3.2.0"
+gem "hoe", "3.16.0"
+gem "httpclient", "2.8.3"
+gem "httparty", "0.14.0"
+gem "multi_xml", "0.5.5"
+gem "i18n", "0.8.0"
+gem "jiralicious", "0.4.3"
+gem "json", "1.8.6"
+gem "json_pure", "2.0.2"
+gem "libwebsocket", "0.1.8"
+gem "mail", "2.6.3"
+gem "mime-types", "2.6.2"
+gem "mini_magick", "3.5.0"
+gem "multi_json", "<2.0",">=1.7.5"
+gem "minitest", "5.4.3"
+gem "test-unit", "3.2.3"  ##Required for assert_equal methods as Ruby 2.2.0 no longer supports it
+#gem "minitest", "5.8.5" ##tested with minitest only
+#gem "minitest", "5.10.1" ##tested with minitest with little success
+gem "nokogiri", "1.7.0.1"
+gem "polyglot", "0.3.5"
+gem "rake", "12.0.0"
+gem "rautomation", "0.17.0"
+gem "rbx-require-relative", "0.0.9" ##Do we still need this?
+gem "rdiscount", "2.2.0"
+gem "responsalizr", "1.0.2"
+gem "rspec", "3.5.0"
+gem "rspec-core", "3.5.4"
+gem "rspec-expectations", "3.5.0"
+gem "rspec-mocks", "3.5.0"
+gem "ruby_core_source", "0.1.5"
+gem "s4t-utils", "1.0.4"
+gem "selenium-webdriver", "3.0.5" #use firefox v50.0.2 geckodriver 0.13 or 0.12 - debugger timed out
+gem "childprocess", "0.5.8"
+gem "zip-zip", "0.3"
+gem "soap4r-ruby1.9", "2.0.5"  ## Still need this - Remove if SOAP is no longer needed?
+gem "subexec", "0.2.3"
+gem "syntax", "1.2.1"
+gem "term-ansicolor", "1.3.0"
+gem "tiny_tds", "1.0.5"
+gem "retriable", "2.0.0"
+gem "treetop", "1.6.8"
+gem "tzinfo", "1.1.0"
+gem "tzinfo-data", "~> 1.2015", ">= 1.2015.7"
+gem "watir-webdriver", "0.9.9"
+##There is a problem in Chrome 56msc where get_element(friendly_name).option(:value => "#{value}").select does not work
+## when page-object 2.0.0 is used with watir 6.0.3/6.1.0 (Firefox works well with these two gem combo. 
+gem "page-object", "1.2.0"
+gem "xml-simple", "1.1.5"
+gem "yard", "0.8.7.6"
+gem "yard-cucumber2", "2.3.4"
+gem "calabash-android", "0.4.6" ##Need this since we are going to take android out
+gem "rest-client", "2.0.0"
+gem 'browserstack-screenshot', "0.0.2"
+gem "bunny", "1.2.1"  ##This is needed for RabbitMQ.  Still need this?
+gem 'ruby-gmail', '~> 0.3.1'
+gem "net-http-persistent", "2.9.4"
+gem "debase", "0.2.1"
+gem "debase-ruby_core_source", "0.9.6"
+gem "ruby-debug-ide", "0.6.0"
+
+#windows only gems
+platforms :mswin, :mingw do
+  gem "win32-api", "1.6.0"
+  gem "win32-process", "0.7.4"
+  gem "win32screenshot", "1.0.10"
+  gem "windows-api", "0.4.4"
+  gem "windows-pr", "1.2.6"
+  gem "rubysl-win32ole", "0.0.1"
+end
+

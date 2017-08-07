@@ -1,0 +1,1 @@
+gem list | %{$_.split(' ')[0]} | %{gem uninstall -Iax $_ }

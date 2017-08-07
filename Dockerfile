@@ -10,22 +10,33 @@ RUN apt-get update
 # install the prerequisite patches here so that rvm will install under non-root account. 
 RUN apt-get install -y curl patch gawk g++ gcc make libc6-dev patch libreadline6-dev zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 autoconf libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev 
 
-##Prerequisites for headless chrome
-RUN apt-get install -y openjdk-8-jre-headless xvfb libxi6 libgconf-2-4 iceweasel
+##Prerequisites for chrome 
+RUN apt-get install -y xvfb libxi6 libxss1 libgconf2-4 libappindicator1 libindicator7 libasound2 libnspr4 libx11-xcb1 fonts-liberation libnss3 xdg-utils
 
 ## prerequisites for ruby gems
 RUN apt-get install -y libcurl3 libcurl3-gnutls libcurl4-openssl-dev libxml2-dev libxslt-dev freetds-dev 
 
-RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.13.0/geckodriver-v0.13.0-linux64.tar.gz
-RUN tar -xaf geckodriver-v0.13.0-linux64.tar.gz
-RUN mv -f geckodriver /usr/local/share/
-RUN chmod +x /usr/local/share/geckodriver
-RUN ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver
-RUN rm geckodriver-v0.13.0-linux64.tar.gz
+##Prerequisites for chrome
+WORKDIR /tmp
+# Install Chrome 59
+ADD chrome64_59.0.3071.86.deb /tmp
+RUN sudo dpkg -i chrome64_59.0.3071.86.deb
+#RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+#RUN dpkg -i google-chrome-stable_current_amd64.deb
+#RUN apt-get -fy install google-chrome-stable
+
+# Install ChromeDriver.
+RUN wget -N http://chromedriver.storage.googleapis.com/2.31/chromedriver_linux64.zip -P /tmp
+RUN apt-get install unzip
+RUN unzip chromedriver_linux64.zip -d /tmp
+RUN rm chromedriver_linux64.zip
+RUN mv -f chromedriver /usr/local/share/
+RUN chmod +x /usr/local/share/chromedriver
+RUN ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 
 ##Clone Automation Test repository
 WORKDIR /usr/src/automated-tests
-RUN git clone https://2383126dd451668c1fb01ac490d538b391211d6d@github.com/lngot/automated-tests.git /usr/src/automated-tests
+ADD cweb-automation-tests /usr/src/automated-tests/
 
 ##Create automation test user
 RUN useradd -ms /bin/bash auto_testuser
@@ -58,10 +69,6 @@ WORKDIR /usr/src/automated-tests/Cucumber
 RUN /bin/bash -l -c "source $HOME/.bash_profile"
 RUN /bin/bash -l -c "bundle install --gemfile=/usr/src/automated-tests/Cucumber/Gemfile"
 RUN /bin/bash -l -c "gem query --local"
-
-ENV DISPLAY=10.10.22.8:0.0
-####Need to run this manually in the docker image
-#CMD Xvfb :0 -screen 0 1024x768x16&
 
 # interactive shell by default so rvm is sourced automatically
 ENTRYPOINT /bin/bash -l 

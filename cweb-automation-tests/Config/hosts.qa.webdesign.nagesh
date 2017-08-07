@@ -1,0 +1,92 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Web Design Environment
+####################################################
+
+# Sites
+10.21.0.152	www.opentable.com		opentable.com		secure.opentable.com	export.opentable.com	uk.opentable.com	metromix.opentable.com
+#10.22.4.70	www.opentable.com		opentable.com		secure.opentable.com	export.opentable.com	uk.opentable.com	metromix.opentable.com
+10.21.0.158	www.opentable.com.mx	opentable.com.mx	secure.opentable.com.mx	export.opentable.com.mx
+10.21.0.154  www.toptable.co.uk		toptable.co.uk		secure.toptable.co.uk	test.toptable.co.uk
+10.21.0.155	www.opentable.de		opentable.de		secure.opentable.de		export.opentable.de
+10.21.0.153	www.opentable.jp		opentable.jp		secure.opentable.jp		export.opentable.jp
+
+# Mobile Sites
+#10.21.4.71 	m.opentable.com
+10.21.0.233	m.opentable.com
+10.21.0.233 m.toptable.co.uk
+10.21.0.112	m.opentable.de
+
+# CHARM
+#10.21.4.86	www.charm.com
+10.21.0.152	www.charm.com
+10.21.0.153	www.charm.jp
+10.21.0.154	www.charm.eu
+
+# Databases
+10.21.0.6	webdb-na-primary  
+10.21.0.9 	weblogdb-na-primary
+10.21.2.11	webdb-eu-primary  weblogdb-eu-primary
+10.21.3.11	webdb-ap-primary  weblogdb-ap-primary
+10.10.20.208    mongo-db-primary
+
+
+# Console Sites
+10.21.0.217	otconnect.com	webmodule.opentable.com                    
+10.21.0.253	otconnect.de	webmodule-eu.opentable.com              
+10.21.0.252	otconnect.jp	webmodule-ap.opentable.com         
+
+
+# OTRestaurant
+10.21.0.105	www.otrestaurant.com
+
+
+# Email Server
+10.22.0.5	qa.otmail.com
+
+# Reviews
+10.10.0.126	reviews.opentable.com opentable.reviews.bazaarvoice.com bazaarvoice.edgesuite.net opentable.ugc.bazaarvoice.com
+
+# ERBs
+
+10.22.0.3	Auto-US-ERB10
+10.22.0.142  Auto-US-FRN-ERB
+10.22.1.80	Auto-EU-CC-UK-1
+10.22.1.153 Auto-UK-FRN-ERB
+10.22.0.20	Auto-JP-ERB10
+10.22.0.72	Auto-JP-FRN-ERB
+
+
+# userService
+10.21.0.114        int-na-svc
+
+# UMAMI
+10.21.7.48 cloud.opentable.com
+10.21.7.51  int-na-remotebe-01-qa umami-backend int-na-remotebe-01-qa.qasql.opentable.com
+
+#localhost entries for following
+127.0.0.1	www.opentable.fr
+127.0.0.1	www.opentable.es
+127.0.0.1	www.otrestaurant.com.mx
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+

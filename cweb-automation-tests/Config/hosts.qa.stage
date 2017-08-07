@@ -1,0 +1,98 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Stage Environment
+####################################################
+
+
+# Consumer Sites
+66.151.130.128  www.opentable.com secure.opentable.com
+127.0.0.1 www.opentable.com.mx	opentable.com.mx	secure.opentable.com.mx	export.opentable.com.mx
+127.0.0.1  www.toptable.co.uk		toptable.co.uk		secure.toptable.co.uk	test.toptable.co.uk
+127.0.0.1	www.opentable.de		opentable.de		secure.opentable.de		export.opentable.de
+127.0.0.1	www.opentable.jp		opentable.jp		secure.opentable.jp		export.opentable.jp
+
+# Mobile Sites
+66.151.130.147	m.opentable.com
+127.0.0.1	m.toptable.co.uk
+127.0.0.1	m.opentable.de
+
+# CHARM
+10.0.0.152	charm.opentable.com.ot
+127.0.0.1	charm-asia.opentable.com.ot
+127.0.0.1	charm-eu.opentable.com.ot
+
+# Databases
+127.0.0.1	webdb-na-primary  
+127.0.0.1 	weblogdb-na-primary
+127.0.0.1	webdb-eu-primary  weblogdb-eu-primary
+127.0.0.1	webdb-ap-primary  weblogdb-ap-primary
+127.0.0.1	mongo-db-primary
+
+# Console Sites
+127.0.0.1	otconnect.com	webmodule.opentable.com                    
+127.0.0.1	otconnect.de	webmodule-eu.opentable.com              
+127.0.0.1	otconnect.jp	webmodule-ap.opentable.com              
+
+# OTRestaurant
+127.0.0.1	www.otrestaurant.com
+
+# Email Server
+127.0.0.1	qa.otmail.com
+
+
+
+
+
+127.0.0.1 cloud.opentable.com
+
+
+
+127.0.0.1	www.charm.com
+127.0.0.1	www.charm.eu
+127.0.0.1	www.charm.jp
+
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+
+# Reviews
+69.22.138.8	reviews.opentable.com opentable.reviews.bazaarvoice.com bazaarvoice.edgesuite.net opentable.ugc.bazaarvoice.com
+
+
+# ERBs
+199.16.144.135 VM-Production-US1	
+127.0.0.1	Auto-EU-CC-UK-1
+127.0.0.1	Auto-JP-ERB10
+127.0.0.1	Auto-JP-FRN-ERB
+
+# userService
+127.0.0.1    int-na-svc
+
+
+
+#localhost entries for following
+127.0.0.1	www.opentable.fr
+127.0.0.1	www.opentable.es
+127.0.0.1	www.otrestaurant.com.mx
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+
+
