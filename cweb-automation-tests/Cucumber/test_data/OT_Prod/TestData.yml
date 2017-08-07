@@ -1,0 +1,350 @@
+COM:
+  AlwaysOnline:
+    Name: "Auto-PP-OTC-US3"
+    RID: "95155"
+    Time: "2:00 PM"
+    PartySize: "2"
+  Connect:
+    Name: "OTConnect-Partner-Rest2"
+    RID: "82594"
+    Time: "2:00 PM"
+    PartySize: "2"
+  CreditCard:
+    Name: "A Test Restaurant"
+    RID: "80776"
+    Time: "7:00 PM"
+    PartySize: "6"
+  GuestCenterRest:
+    Name: "GC - CW Auto US 1"
+    RID: "189736"
+    Time: "7:00 PM"
+    PartySize: "2"
+  WaitList:
+    Name: "GC - CW Auto US 2"
+    RID: "189739"
+    Time: "7:00"
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod US"
+    RID: "192550"
+    Time: "7:00 PM"
+    PartySize: "2"
+  CWAutoTestERB:
+    Name: "Automation ERB 1"
+    RID: "211243"
+    Time: "7:00 PM"
+    PartySize: "2"
+  BlockDay:
+    Name: "OTConnect-Partner-Rest1"
+    RID: "82591"
+    Time: "7:00 PM"
+    PartySize: "2"
+  POP1:
+    Name: "Auto-PP-OTC-US"
+    RID: "95152"
+    Time: "7:00 PM"
+    PartySize: "2"
+  POP2:
+    Name: "Auto_Attribution_Rest"
+    RID: "95167"
+  NextAvailable:
+    Name: "Auto-PP-OTC-US"
+    RID: "95152"
+  WebErb:
+    Name: "VM-Production-US1"
+    RID: "31855"
+  Mobile:
+    Name: "Auto Mobile Bistro"
+    RID: "95149"
+    Location: "San Francisco"
+    Time: "7:00 PM"
+    Locale: "en"
+    NLName: "auto-mobile-bistro"
+    Confirmation: "Reservation Confirmed"
+    Term: "Terms of Use"
+    Privacy: "Privacy Policy"
+    iPhone_6_0_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A525 Safari/8536.25"
+    iPhone_5_1_1_Chrome: "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3"
+    iPhone_5_1_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B208 Safari/7534.48.3"
+    S3_Android_4_1_1: "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; GT-I9300 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    S3_Android_4_1_2_Chrome: "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
+    Droid_Android_4_0_4: "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROID RAZR HD Build/7.7.1Q-78_VQW_LE-27) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    Nokia_Win_8: "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920"
+  Exclusive:
+    Name: "Auto_Attribution_ExclusiveVille"
+    RID: "95170"
+  UMAMI24hr:
+      Name: "Auto_Umami_108946"
+      RID: "108946"
+  UMAMI24hr:
+      Name: "Auto_Umami_108946"
+      RID: "108946"
+FRCA:
+  AlwaysOnline:
+    Name: "Auto-OTC-Canada"
+    RID: "95140"
+    Time: "19:00"
+    PartySize: "2"
+  CreditCard:
+    Name: "VM-Production-US1"
+    RID: "31855"
+    Time: "19:00"
+    PartySize: "4"
+  GuestCenterRest:
+    Name: "GC - CW Auto FRCA 1"
+    RID: "189742"
+    Time: "19:00"
+    PartySize: "2"
+MX:
+  AlwaysOnline:
+    Name: "Auto-OTC-MX2"
+    RID: "21184"
+    Time: "7:00 p.m."
+    PartySize: "2"
+  Connect:
+    Name: "Auto-OTC-MX2"
+    RID: "95146"
+    Time: "7:00 p.m."
+    PartySize: "2"
+  NextAvailable:
+    Name: "Auto-OTC-MX-1"
+    RID: "95143"
+  CreditCard:
+    Name: "Auto-NA-CC-MX"
+    RID: "93535"
+    Time: "7:00 p.m."
+    PartySize: "4"
+  GuestCenterRest:
+    Name: "GC - CW Auto MX 1"
+    RID: "189748"
+    Time: "7:00 p.m."
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod MX"
+    RID: "192553"
+    Time: "7:00 p.m."
+    PartySize: "2"
+  CWAutoTestERB:
+    Name: "Automation ERB 2"
+    RID: "211258"
+    Time: "7:00 p.m."
+    PartySize: "2"
+  DualLangEnabled:
+    Name: "Auto-OTC-MX2"
+    RID: "95146"
+    Time: "7:00 p.m."
+    PartySize: "2"
+JP:
+  AlwaysOnline:
+    Name: "Auto-Asia-JP-1"
+    RID: "17351"
+    Time: "19:00"
+    PartySize: "2"
+  Connect:
+    Name: "Auto-OTC-JP2"
+    RID: "17354"
+    Time: "19:00"
+    PartySize: "2"
+  GuestCenterRest:
+    Name: "GC – CW Auto JP 1"
+    RID: "20084"
+    Time: "19:00"
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod JP"
+    RID: "20807"
+    Time: "19:00"
+    PartySize: "2"
+  CWAutoTestERB:
+    Name: "Automation ERB 5"
+    RID: "26231"
+    Time: "19:00"
+    PartySize: "2"
+  BlockDay:
+    Name: "Auto-OTC-JP3"
+    RID: "17357"
+  NextAvailable:
+    Name: "Auto-OTC-JP1"
+    RID: "17360"
+  FRN:
+    Name: "Auto-JP-FRN-ERB"
+    RID: "17363"
+  WebErb:
+    Name: "Auto-Rest-10304"
+    RID: "10304"
+  DualLangEnabled:
+    Name: "Auto-OTC-JP2"
+    RID: "17354"
+  Mobile:
+    Name: "Auto Mobile Bistro JP"
+    RID: "18113"
+    Location: "Tokyo"
+    Time: "19:00"
+    Locale: "jp"
+    NLName: "auto-mobile-bistro-jp"
+    Confirmation: "ご予約が完了しました"
+    Term: "利用規約"
+    Privacy: "プライバシーポリシー"
+    iPhone_6_0_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A525 Safari/8536.25"
+    iPhone_5_1_1_Chrome: "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3"
+    iPhone_5_1_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B208 Safari/7534.48.3"
+    S3_Android_4_1_1: "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; GT-I9300 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    S3_Android_4_1_2_Chrome: "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
+    Droid_Android_4_0_4: "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROID RAZR HD Build/7.7.1Q-78_VQW_LE-27) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    Nokia_Win_8: "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920"
+
+DE:
+  Mobile:
+    Name: "Auto Mobile Bistro DE"
+    RID: "91638"
+    Location: "Berlin, Deutschland"
+    Time: "19:00"
+    Locale: "de"
+    NLName: "auto-mobile-bistro-de"
+    Anomalies: "(Empty)"
+    AnomaliesRef: "(Empty)"
+    AnomaliesRestRef: "(Empty)"
+    ZeroReason: "(Empty)"
+    ZeroReasonRef: "(Empty)"
+    ZeroReasonRestRef: "[Zero Point Rest Ref][Demoland does not allow points]"
+    Confirmation: "Reservierung bestätigt"
+    Term: "Nutzungsbedingungen"
+    Privacy: "Datenschutzerklärung"
+    iPhone_6_0_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A525 Safari/8536.25"
+    iPhone_5_1_1_Chrome: "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3"
+    iPhone_5_1_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B208 Safari/7534.48.3"
+    S3_Android_4_1_1: "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; GT-I9300 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    S3_Android_4_1_2_Chrome: "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
+    Droid_Android_4_0_4: "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROID RAZR HD Build/7.7.1Q-78_VQW_LE-27) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    Nokia_Win_8: "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920"
+  CreditCard:
+    Name: "QAM58GERMANN-German"
+    RID: "11937"
+    Time: "19:00"
+    PartySize: "4"
+  GuestCenterRest:
+    Name: "GC - CW Auto DE 1"
+    RID: "117402"
+    Time: "19:00"
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod DE"
+    RID: "120861"
+    Time: "19:00"
+    PartySize: "2"
+  CWAutoTestERB:
+    Name: "Automation ERB 4"
+    RID: "121683"
+    Time: "19:00"
+    PartySize: "2"
+  DualLangEnabled:
+    Name: "Auto-PP-OTC-DE2"
+    RID: "91488"
+    Time: "19:00"
+    PartySize: "4"
+  AlwaysOnline:
+    Name: "Auto-PP-OTC-DE2"
+    RID: "91488"
+    Time: "2:00 PM"
+    PartySize: "2"
+
+COUK:
+  Mobile:
+    Name: "Auto Mobile Bistro TT"
+    RID: "91506"
+    Location: "London, UK"
+    Time: "19:00"
+    Locale: "en"
+    NLName: "auto-mobile-bistro-tt"
+    Confirmation: "Reservation Confirmed"
+    Term: "Terms of Use"
+    Privacy: "Privacy Policy"
+    iPhone_6_0_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A525 Safari/8536.25"
+    iPhone_5_1_1_Chrome: "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3"
+    iPhone_5_1_1: "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B208 Safari/7534.48.3"
+    S3_Android_4_1_1: "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; GT-I9300 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    S3_Android_4_1_2_Chrome: "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
+    Droid_Android_4_0_4: "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; DROID RAZR HD Build/7.7.1Q-78_VQW_LE-27) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    Nokia_Win_8: "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920"
+  CreditCard:
+    Name: "VM-Stage-US-3"
+    RID: "31852"
+    Time: "19:00"
+    PartySize: "4"
+  Offers:
+    Name: "VM-Stage-US-3"
+    RID: "31852"
+    Time: "18:00"
+    PartySize: "2"
+    OfferName: "50% Off Your Total Bill"
+    ChangeOfferName: "Get a Complimentary glass of wine"
+  WebErb:
+    Name: "VM-Stage-US-3"
+    RID: "31852"
+    Time: "19:00"
+    PartySize: "2"
+  AlwaysOnline:
+    Name: "Auto-OTC-UK-3"
+    RID: "91500"
+    Time: "2:00 PM"
+    PartySize: "2"
+  BlockDay:
+    Name: "Auto_Attribution_UK"
+    RID: "91509"
+  Connect:
+    Name: "Auto_Attribution_UK"
+    RID: "91509"
+  POP1:
+    Name: "Auto-OTC-UK-2"
+    RID: "91503"
+    Time: "19:00"
+    PartySize: "2"
+  GuestCenterRest:
+    Name: "GC - CW Auto UK 1"
+    RID: "117390"
+    Time: "19:00"
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod UK"
+    RID: "120858"
+    Time: "19:00"
+    PartySize: "2"
+  CWAutoTestERB:
+    Name: "Automation ERB 3"
+    RID: "121680"
+    Time: "19:00"
+    PartySize: "2"
+  POP2:
+    Name: "Auto_Attribution_UK"
+    RID: "91509"
+  Exclusive:
+    Name: "Auto_Attribution_ExclusiveVille"
+    RID: "91512"
+IE:
+  GuestCenterRest:
+    Name: "GC - CW Auto IE 1"
+    RID: "117396"
+    Time: "19:00"
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod IE"
+    RID: "120864"
+    Time: "19:00"
+    PartySize: "2"
+AU:
+  GuestCenterRest:
+    Name: "GC – CW Auto AU 1"
+    RID: "20603"
+    Time: "19:00"
+    PartySize: "2"
+  Connect2:
+    Name: "GC – CW Prod AU"
+    RID: "20810"
+    Time: "19:00"
+    PartySize: "2"
+NL:
+  GuestCenterRest:
+      Name: "GC – CW Auto NL 1"
+      RID: "138906"
+      Time: "19:00"
+      PartySize: "2"

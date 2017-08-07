@@ -1,0 +1,80 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Production Environment
+####################################################
+
+# Consumer Sites
+# Use DNS to hit the consumer site  and mobile sites through the load balancer
+
+
+# CHARM
+10.0.1.27	charm.opentable.com.ot
+10.0.1.28	charm-asia.opentable.com.ot
+10.0.1.29	charm-eu.opentable.com.ot
+
+# Databases
+127.0.0.1	webdb-na-primary  
+127.0.0.1 	weblogdb-na-primary
+127.0.0.1	webdb-eu-primary  weblogdb-eu-primary
+127.0.0.1	webdb-ap-primary  weblogdb-ap-primary
+127.0.0.1	mongo-db-primary
+
+# Console Sites
+127.0.0.1	otconnect.com	webmodule.opentable.com                    
+127.0.0.1	otconnect.de	webmodule-eu.opentable.com              
+127.0.0.1	otconnect.jp	webmodule-ap.opentable.com              
+
+# OTRestaurant
+127.0.0.1	www.otrestaurant.com
+
+# Email Server
+127.0.0.1	qa.otmail.com
+
+127.0.0.1	www.charm.com
+127.0.0.1	www.charm.eu
+127.0.0.1	www.charm.jp
+
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+
+
+
+
+# ERBs
+199.16.144.141  VM-Production-US1	
+127.0.0.1	Auto-EU-CC-UK-1
+199.16.144.237	Auto-Rest-10304
+127.0.0.1	Auto-JP-FRN-ERB
+
+# userService
+127.0.0.1    int-na-svc
+
+127.0.0.1 cloud.opentable.com
+
+#localhost entries for following
+127.0.0.1	www.opentable.fr
+127.0.0.1	www.opentable.es
+127.0.0.1	www.otrestaurant.com.mx
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+
+

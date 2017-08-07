@@ -1,0 +1,30 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=lf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.config text=crlf
+*.Config text=crlf
+*.aspx text=crlf
+*.cs text=crlf
+*.cshtml text=crlf
+*.css text=crlf
+*.js text=crlf
+*.resx text=crlf
+*.txt text=crlf
+*.xml text=crlf
+*.targets text=crlf
+*.Targets text=crlf
+*.ruleset text=crlf
+*.StyleCop text=crlf
+*.sln text=crlf
+*.csproj text=crlf
+*.testsettings text=crlf
+*.uitest text=crlf
+*.bat text=crlf
+*.vsmdi text=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.dll binary

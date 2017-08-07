@@ -1,0 +1,69 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Web Content Environment
+####################################################
+
+# Sites
+10.21.0.162 	www.opentable.com export.opentable.com secure.opentable.com
+127.0.0.1       www.opentable.com.mx secure.opentable.com.mx
+127.0.0.1       www.opentable.de export.opentable.de secure.opentable.de
+10.21.0.163 	www.charm.com
+10.21.0.233     m.opentable.com
+10.21.0.233		m.toptable.co.uk
+127.0.0.1       www.charm.eu
+127.0.0.1	    www.opentable.jp export.opentable.jp secure.opentable.jp
+127.0.0.1	    www.charm.jp
+
+# Databases
+10.21.0.248 	webdb-na-primary weblogdb-na-primary
+10.21.0.248     webdb-eu-primary weblogdb-eu-primary
+
+# Email Server
+10.22.0.5  	    qa.otmail.com
+
+# Reviews
+10.10.0.126     reviews.opentable.com opentable.reviews.bazaarvoice.com bazaarvoice.edgesuite.net opentable.ugc.bazaarvoice.com
+
+
+
+#localhost entries for following
+127.0.0.1	www.opentable.fr
+127.0.0.1	www.opentable.es
+127.0.0.1	www.otrestaurant.com.mx
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+127.0.0.1	m.opentable.jp
+
+
+#localhost entries for following
+127.0.0.1	www.opentable.fr
+127.0.0.1	www.opentable.es
+127.0.0.1	www.otreataurant.com.mx
+127.0.0.1       www.otrestaurant.de
+127.0.0.1       www.otrestaurant.jp
+127.0.0.1	www.toptable.co.uk
+127.0.0.1	otconnect.com webmodule.opentable.com
+127.0.0.1	otconnect.de webmodule-eu.opentable.com
+127.0.0.1	otconnect.jp webmodule-ap.opentable.com
+127.0.0.1	www.otrestaurant.com
+127.0.0.1	m.toptable.co.uk
+127.0.0.1	m.opentable.de

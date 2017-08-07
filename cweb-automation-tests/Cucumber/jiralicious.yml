@@ -1,0 +1,22 @@
+jira:
+  username: ot_automation
+  password: automation
+  uri: https://opentable.atlassian.net
+  api_version: 2
+  
+jira_properties:
+  project: 
+    id: 13401
+    name: CUCAUTO
+  default_issue_type:
+    id: 28
+    name: Automation Failure
+  transitions:
+    # current issue status id
+    5:
+      #transition to be applied for given status
+      failed: 21
+    10001:
+      passed: 11
+    6:
+      failed: 21

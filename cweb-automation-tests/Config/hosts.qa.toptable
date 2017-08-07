@@ -1,0 +1,44 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Toptable Environment
+####################################################
+
+# Sites
+192.168.10.9        www.toptable.co.uk
+192.168.10.9   		www.toptable.com www.toptable.us www.toptable.fr www.toptable.de
+192.168.10.9   		redirect.toptable.com
+192.168.10.4    	www.opentable.com uk.opentable.com www.opentable.co.uk opentable.co.uk 
+192.168.10.4		export.opentable.com secure.opentable.com
+192.168.10.4 		www.opentable.com.mx secure.opentable.com.mx export.opentable.com.mx
+
+# Databases
+192.168.10.13	    webdb-na-primary weblogdb-na-primary
+192.168.10.13       webdb-eu-primary weblogdb-eu-primary
+192.168.10.13       webdb-ap-primary weblogdb-ap-primary
+
+# Email Server
+192.168.10.19  	    qa.otmail.com
+192.168.10.19		mailhome qa.otmail.com
+
+# Charm
+192.168.10.10   	www.charm.eu
+192.168.10.6		www.charm.com

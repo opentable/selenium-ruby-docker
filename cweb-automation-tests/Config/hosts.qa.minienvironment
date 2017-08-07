@@ -1,0 +1,48 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# Web Release Environment
+####################################################
+
+# Consumer Sites
+192.168.23.1 	www.opentable.com export.opentable.com secure.opentable.com uk.opentable.com
+192.168.23.3	www.opentable.de export.opentable.de secure.opentable.de
+192.168.23.1 	www.opentable.com.mx secure.opentable.com.mx
+192.168.23.2	www.opentable.jp export.opentable.jp secure.opentable.jp
+192.168.23.3 	www.toptable.co.uk test.toptable.co.uk
+
+# Databases
+192.168.23.6	webdb-na-primary weblogdb-na-primary
+192.168.23.6 	webdb-eu-primary weblogdb-eu-primary
+
+# Email Server
+10.22.0.5  	    qa.otmail.com
+
+# Charm
+192.168.23.1	www.charm.com
+192.168.23.3	www.charm.eu
+192.168.23.2	www.charm.jp
+
+# Mobile
+127.0.0.1   	m.opentable.com
+
+# Reviews
+10.10.0.126     reviews.opentable.com opentable.reviews.bazaarvoice.com bazaarvoice.edgesuite.net opentable.ugc.bazaarvoice.com

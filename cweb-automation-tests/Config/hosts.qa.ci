@@ -1,0 +1,95 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+
+####################################################
+# CI Environment
+####################################################
+
+
+# ROMS
+10.21.2.28 roms.ci.opentable.com
+10.10.30.82 wiki.otcorp.opentable.com
+ 
+# CHARM
+
+10.21.2.19	charm.ci.opentable.com www.charm.com
+10.21.3.15	charm-ap.ci.opentable.com	www.charm.jp
+10.21.2.207	charm-eu.ci.opentable.com	www.charm.eu
+ 
+ 
+# Environment for OTRestaurant Sites
+
+10.22.2.23	www.otrestaurant.com
+10.22.2.21	www.otrestaurant.com.mx
+10.22.2.209	www.otrestaurant.de
+10.22.3.19	www.otrestaurant.jp
+10.22.2.27	www.otrestaurant.ca
+10.22.2.29	sso.opentable.com
+10.22.2.28	int.opentable.com
+10.21.2.79	otrestaurant.com
+
+
+
+
+# Email Server
+10.22.0.5 mailhome
+
+
+
+
+#Covers Cube
+10.21.0.8 otstats-global-primary-qa
+
+#ROMS website
+10.21.2.38	roms.ci.opentable.com 
+
+
+# External API services
+10.22.2.10 	www.opentable.com
+10.21.2.14 	www.internalapi.com 
+10.22.2.200 	www.toptable.co.uk 
+10.22.2.10	www.opentable.com
+10.22.2.22	www.opentable.com.mx
+10.22.2.12	m.opentable.com
+10.22.2.19	mobile-api.opentable.com
+10.22.2.16	cs-na.opentable.com
+10.22.2.18	cloud.opentable.com
+10.22.2.20	api.cloud.opentable.com
+10.22.3.16	www.opentable.jp
+10.22.3.13	manage.opentable.jp
+10.22.3.17 	m.opentable.jp
+10.22.2.210 	LegacyAPI.co.uk  
+10.21.2.205 	www.internalapi.co.uk
+10.22.2.202	www.opentable.de
+10.22.2.201	m.toptable.co.uk
+10.22.2.203	m.opentable.de
+10.22.2.212	manage.opentable.co.uk
+10.22.2.205	manage.opentable.de
+10.22.2.31  guestcenter.opentable.com
+
+10.22.2.202 www.opentable.fr 
+10.22.2.202	www.opentable.es 
+
+10.22.2.24	otconnect.com webmodule.opentable.com
+10.22.2.204	otconnect.de	webmodule-eu.opentable.com
+10.22.3.11	otconnect.jp webmodule-ap.opentable.com
+  
+ 
+
